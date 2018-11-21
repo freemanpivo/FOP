@@ -1,11 +1,11 @@
 package lifters;
 
-import features.FeatureLF_on_CF_on_SF;
+import features.StackCounterLockFeature;
 
-public class FeatureCF {
+public class CombineStackFeatures {
 	
 	public static void main(String[] args) {
-		FeatureLF_on_CF_on_SF myFeature = new FeatureLF_on_CF_on_SF();
+		StackCounterLockFeature myFeature = new StackCounterLockFeature();
 
 		myFeature.unlock();
 		

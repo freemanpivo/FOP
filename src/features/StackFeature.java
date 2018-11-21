@@ -2,7 +2,7 @@ package features;
 
 import interfaces.Stack;
 
-public class FeatureSF implements Stack{
+public class StackFeature implements Stack{
 	String s = new String();
 	
 	public void empty() { 

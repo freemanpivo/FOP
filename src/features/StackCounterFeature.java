@@ -3,7 +3,7 @@ package features;
 import interfaces.Counter;
 import interfaces.Stack;
 
-public class FeatureCF_on_SF extends FeatureSF implements Counter, Stack {	
+public class StackCounterFeature extends StackFeature implements Counter, Stack {	
 	int i = 0;
 	
 	public void reset() {

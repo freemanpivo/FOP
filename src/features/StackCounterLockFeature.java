@@ -4,7 +4,7 @@ import interfaces.Counter;
 import interfaces.Lock;
 import interfaces.Stack;
 
-public class FeatureLF_on_CF_on_SF extends FeatureCF_on_SF implements Lock, Counter, Stack {
+public class StackCounterLockFeature extends StackCounterFeature implements Lock, Counter, Stack {
 	
 	boolean I = true;
 	
